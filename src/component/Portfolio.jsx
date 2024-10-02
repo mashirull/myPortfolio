@@ -4,6 +4,8 @@ import Modal from './Modal';
 import { useSelector  , useDispatch} from 'react-redux';
 import  { setModal } from '../slider/modalSlice';
 import {BiChevronDown} from 'react-icons/bi';
+import { FaRegShareSquare } from "react-icons/fa";
+
 
 const Portfolio = () => {
 
@@ -37,7 +39,7 @@ const Portfolio = () => {
                   <h4>{project.title}</h4>
                   <p>{project.description}</p>
                 </div>
-                <a href= {project.url} target='_blank' rel='noreferrer'><button className='common_btn proj_btn'>visit site</button></a>
+                <a href= {project.url} target='_blank' rel='noreferrer'><button className=' proj_btn'> <span><FaRegShareSquare/></span> </button></a>
                 
               </div>
             )

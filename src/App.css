@@ -555,9 +555,12 @@ a{
     }
     .proj_btn{
         padding: 4px;
-        font-size: 14px;
+        font-size: 18px;
         border: none;float:right;
         margin: 4px;
+        background-color: transparent;
+        color: #07e4a2;
+        cursor: pointer;
     }
 
 
