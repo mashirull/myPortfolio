@@ -14,13 +14,13 @@ const Home = () => {
   return (
     <section className='home_container' id='home'>
         <div className="middle_text">
-        <h4>Welcome</h4>
+        <h4>Hi, This is <span className='common_clr'>MASHIRUL HAQUE</span></h4>
         <h1>
             <Typewriter
   
                 
                 options={{
-                    strings: ["I'm MASHIRUL HAQUE.", "I'm a Web Developer." , "I'm UX/UI Designer.", "I'm Frelancer." , "I'm React Developer."],
+                    strings: ["I'm a Web Developer." , "I'm Wordpress developer", "I'm UX/UI Developer.", "I'm Frelancer." , "I'm React Developer.", "I'm Graphic Designer."],
                     autoStart: true,
                     loop: true,
                   }}

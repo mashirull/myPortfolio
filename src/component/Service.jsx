@@ -1,9 +1,11 @@
 import React from 'react';
 import {TbBrandReact} from 'react-icons/tb';
-import {MdOutlineDesktopMac , MdDesignServices} from 'react-icons/md';
+import {MdOutlineDesktopMac } from 'react-icons/md';
 import {FaPaintBrush} from 'react-icons/fa';
 import {DiJqueryUiLogo} from 'react-icons/di';
-import {CgWebsite} from 'react-icons/cg'
+import {CgWebsite} from 'react-icons/cg';
+import { FaWordpress } from "react-icons/fa";
+
 
 
 const Service = () => {
@@ -20,9 +22,9 @@ const Service = () => {
       icon : <MdOutlineDesktopMac/>
     },
     {
-      title : 'UI/UX Design',
-      describe : "Design any User-Interface with help of html css. I know tailwind css scss styled component",
-      icon : <MdDesignServices/>
+      title : 'Wordpress Developer',
+      describe : "I am a WordPress developer with a passion for creating dynamic and user-friendly websites",
+      icon : <FaWordpress/>
     },
     {
       title : 'App Design & Develop',

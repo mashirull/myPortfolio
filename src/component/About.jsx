@@ -23,7 +23,7 @@ const About = () => {
                 <p>Email: <a  className='email' href="mailto:haquemashirul@gmail.com">chat@mashirul</a></p>
                 <p>Age:  <span>{(new Date().getFullYear() -1999)-1}</span></p>
                 <p>From: <span>Palamu , Jharkhand INDIA</span> </p>
-                <button className='common_btn ab_btn'>Download CV</button>
+                <a className='common_btn ab_btn'  href='file\MASHIRUL_HAQUE_resume.pdf' download= "mashirul_resume">Download CV</a>
             </div>
         </div>
 

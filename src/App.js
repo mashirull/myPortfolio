@@ -8,7 +8,7 @@ import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 
-import './App.scss'
+import './App.css'
 function App() {
   return <>
 

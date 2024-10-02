@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { ToggleResNav } from '../slider/responsiveNav';
+import { TiDocumentText } from "react-icons/ti";
+import { GoBriefcase } from "react-icons/go";
+import { HiOutlineLightBulb } from "react-icons/hi";
+import { FaHome, FaRegUser } from "react-icons/fa";
+import { FaHeadset } from "react-icons/fa";
+
 
 
 const NavItem = ({resNav}) => {
@@ -39,12 +45,12 @@ const NavItem = ({resNav}) => {
 
   return (
     <div className={resNav ? 'nav_items res_nav_items' : 'nav_items'}>
-        <li onClick={()=>{scrollToElement('home') ; dispatch(ToggleResNav())} } className={activeSection === 'home' ? 'active' : ''}>Home </li>
-        <li onClick={()=>{scrollToElement('about') ; dispatch(ToggleResNav())}} className={activeSection === 'about' ? 'active' : ''}> About Me </li>
-        <li onClick={()=>{scrollToElement('service'); dispatch(ToggleResNav())}} className={activeSection === 'service' ? 'active'  : ''}> What I do</li>
-        <li onClick={()=>{scrollToElement('resume'); dispatch(ToggleResNav())}} className={activeSection === 'resume' ? 'active' : ''}>Resume</li>
-        <li onClick={()=>{scrollToElement('porfolio'); dispatch(ToggleResNav())}} className={activeSection === 'porfolio' ? 'active' : ''}>Portfolio</li>
-        <li onClick={()=>{scrollToElement('contact'); dispatch(ToggleResNav())}} className={activeSection === 'contact' ? 'active' : ''}>Contact</li>
+        <li onClick={()=>{scrollToElement('home') ; dispatch(ToggleResNav())} } className={activeSection === 'home' ? 'active' : ''}> <span><FaHome/></span>Home </li>
+        <li onClick={()=>{scrollToElement('about') ; dispatch(ToggleResNav())}} className={activeSection === 'about' ? 'active' : ''}> <span><FaRegUser/></span>About Me </li>
+        <li onClick={()=>{scrollToElement('service'); dispatch(ToggleResNav())}} className={activeSection === 'service' ? 'active'  : ''}><span><HiOutlineLightBulb/></span>What I do</li>
+        <li onClick={()=>{scrollToElement('resume'); dispatch(ToggleResNav())}} className={activeSection === 'resume' ? 'active' : ''}><span><TiDocumentText/></span>Resume</li>
+        <li onClick={()=>{scrollToElement('porfolio'); dispatch(ToggleResNav())}} className={activeSection === 'porfolio' ? 'active' : ''}><span><GoBriefcase/></span>Portfolio</li>
+        <li onClick={()=>{scrollToElement('contact'); dispatch(ToggleResNav())}} className={activeSection === 'contact' ? 'active' : ''}><span><FaHeadset/></span>Contact</li>
     </div>
   )
 }

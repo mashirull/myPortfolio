@@ -16,18 +16,18 @@ const Resume = () => {
             description : 'This is my sort term course in Edyoda here i learn full stack development passed with good marks.'
         },
         {
-            year_range : '--------',
-            Ed_name :  'Bachelor Degree',
-            institute_name : 'UnKnown',
-            description : 'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'
+            year_range : '2023-2026',
+            Ed_name :  'BCA (Online/Distance)',
+            institute_name : 'MANIPAL UNIVERSITY JAIPUR',
+            description : 'Pursuing Bachalor of computer application in Online Manipal . Now in 2nd year, completed in 2026'
         }
     ]
 
     const myExprience = [
         {
-            year : '2022 - 2023',
+            year : '2022 - onwords',
             Ex_name : 'Work as a Freelancer',
-            Ex_at : 'Fivver',
+            Ex_at : 'myself',
             description : 'I work as freelancer from one year I completed many project and client has satisfied with my work.'
         },
         // {
@@ -165,7 +165,7 @@ const Resume = () => {
 
             <div className='skill_box' >
                 <div className="skill_title">
-                    <p>Jquery</p>
+                    <p>Wordpress</p>
                     <p>60%</p>
                 </div>
                 <div className="color-bar">

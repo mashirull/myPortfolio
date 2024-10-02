@@ -1,11 +1,11 @@
 export const myProjectData = [
     {
         id: 1,
-        title : 'Massi Eccomerce',
+        title : 'shopeclues',
         image_url : 'images/project1.png',
         category : 'React',
-        description : 'I build this app by using react.js. This is a eccomrcial app with entractive UI and filter product fucntionality',
-        url : 'https://eccomercemassi.netlify.app/'
+        description : 'I build this app by using react.js and tailwind css. This is a eccomrcial app with entractive UI and filter product fucntionality',
+        url : 'https://my-shopclues-massi.vercel.app/'
     },
     {
         id: 2,
@@ -17,11 +17,19 @@ export const myProjectData = [
     },
     {
         id: 3,
-        title : 'Food app (Frontend)',
+        title : 'Netflix Clone',
         image_url : 'images/project3.png',
-        category : 'html-css-js',
-        description : 'bassically this project has only UI . I build this app with pure HTML, CSS ,JAVASCRIPT and this is pure looking food app',
-        url : 'https://comforting-naiad-9bb95b.netlify.app/'
+        category : 'react',
+        description : 'Creating Netflix online movie streaming app using themoviedb API. I have use react, typescript , tailwind css , redux toolkit , redux-thunk',
+        url : 'https://mashirulnetflix.netlify.app/'
+    },
+    {
+        id: 7,
+        title : 'To-Do-List App',
+        image_url : 'images/project7.png',
+        category : 'Next',
+        description : 'Empliment the to-do-list functionality with nextjs , tailwind css , redux toolkit and different type of react hooks',
+        url : 'https://todolist-massi.netlify.app'
     },
     {
         id: 4,
@@ -46,14 +54,6 @@ export const myProjectData = [
         category : 'Jquery',
         description : 'Eccomerce app by using HTML CSS  and JQUERY . displying all the product with category like accesorise and clothing ',
         url : 'https://mashirull.github.io/Shopping-App-js-final-assignment/'
-    },
-    {
-        id: 7,
-        title : 'Movie Search App',
-        image_url : 'images/project7.png',
-        category : 'React',
-        description : 'Movie Search app by React with axios ,useState . Here user can Search any movie name and it can dislpay all data in movie card  ',
-        url : 'https://mashirull.github.io/movie-search-app/'
     },
     {
         id: 8,

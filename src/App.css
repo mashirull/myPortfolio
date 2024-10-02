@@ -10,6 +10,12 @@ a{
     text-decoration: none;
     color: white;
 }
+ 
+.common_clr{
+    color: #07e4a2;
+    font-weight:500px;
+    font-size: larger;
+}
 
 .home_container{
     height: 100vh;
@@ -114,7 +120,7 @@ a{
     }
 
     .nav_items{
-        text-align: center;
+        text-align: left;
         li{
             list-style: none;
             margin: 25px 10px;
@@ -123,6 +129,11 @@ a{
             &:hover{
                 color: #1fbc8e;
             }
+           
+        }
+        span{
+            padding-right: 10px;
+            font-size: 20px;
         }
         .active{
             color: #1fbc8e;
