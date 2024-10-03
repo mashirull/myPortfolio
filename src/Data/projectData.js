@@ -21,7 +21,7 @@ export const myProjectData = [
         image_url : 'images/project3.png',
         category : 'react',
         description : 'Creating Netflix online movie streaming app using themoviedb API. I have use react, typescript , tailwind css , redux toolkit , redux-thunk',
-        url : 'https://mashirulnetflix.netlify.app/'
+        url : 'https://massimoviesflix.netlify.app/'
     },
     {
         id: 7,
